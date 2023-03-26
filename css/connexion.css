@@ -1,0 +1,153 @@
+.container6{
+    display: flex;
+    background-color:#5f8c61;
+    opacity: 0.75;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto; /* Updated */
+    width: 600px;
+}
+
+.form{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 20px auto; /* Updated */
+    padding: 20px;
+    border-radius: 15px;
+}
+.iv{
+    color: #5f8c61;
+}
+
+.titr{
+    color: #5f8c61;
+    text-align: center;
+    padding-top: 50px;
+}
+.bt{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fg{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+/* Code pour les écrans larges */
+@media only screen and (min-width: 1200px) {
+    .container6 {
+       width: 800px;
+    }
+ 
+    .form {
+       width: 700px;
+    }
+ 
+    .titr {
+       font-size: 3rem;
+    }
+ 
+    .iv {
+       font-size: 2rem;
+    }
+ 
+    .bt {
+       font-size: 1.5rem;
+    }
+ 
+    .fg {
+       font-size: 1.5rem;
+    }
+ }
+ 
+ /* Code pour les ordinateurs portables et les tablettes */
+ @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .container6 {
+       width: 600px;
+    }
+ 
+    .form {
+       width: 500px;
+    }
+ 
+    .titr {
+       font-size: 2rem;
+    }
+ 
+    .iv {
+       font-size: 1.5rem;
+    }
+ 
+    .bt {
+       font-size: 1.2rem;
+    }
+ 
+    .fg {
+       font-size: 1.2rem;
+    }
+ }
+ 
+ /* Code pour les smartphones en mode paysage */
+ @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container6 {
+       width: 500px;
+       padding: 10px;
+    }
+ 
+    .form {
+       width: 400px;
+    }
+ 
+    .titr {
+       font-size: 1.5rem;
+    }
+ 
+    .iv {
+       font-size: 1.2rem;
+    }
+ 
+    .bt {
+       font-size: 1rem;
+    }
+ 
+    .fg {
+       font-size: 1rem;
+    }
+ }
+ 
+ /* Code pour les smartphones en mode portrait */
+ @media only screen and (max-width: 575px) {
+    .container6 {
+       width: 300px;
+       padding: 10px;
+    }
+ 
+    .form {
+       width: 250px;
+    }
+ 
+    .titr {
+       font-size: 1.2rem;
+    }
+ 
+    .iv {
+       font-size: 1rem;
+    }
+ 
+    .bt {
+       font-size: 0.8rem;
+    }
+ 
+    .fg {
+       font-size: 0.8rem;
+    }
+ }
+ 
